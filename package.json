@@ -1,0 +1,25 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000p\u0000o\u0000t\u0000i\u0000f\u0000y\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-inocencio/spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-inocencio/spotify/issues"
+  },
+  "homepage": "https://github.com/lucas-inocencio/spotify#readme",
+  "dependencies": {
+    "mongodb": "^6.13.0"
+  }
+}
